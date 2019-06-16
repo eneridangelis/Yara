@@ -1,0 +1,8 @@
+{
+  "name": "Iara 2.0",
+  "integrations": {
+    "capacitor": {},
+    "cordova": {}
+  },
+  "type": "angular"
+}
