@@ -1,0 +1,42 @@
+<ion-content>
+<div class="matchPage">
+<ion-grid style="height: 100%" >
+<ion-row justify-content-center align-items-center style="height: 80%" >
+<ion-grid class="login-container">
+<form #loginForm="ngForm" (ngSubmit)="match()"autocomplete="off"class="login-form">
+
+<!-- <ion-row align-items-center>
+<ion-col> -->
+<div class="name">
+<h1>Deu Onda!</h1>
+</div>
+<!-- </ion-col>
+</ion-row > -->
+
+<ion-row align-items-center>
+<ion-col>
+<div class="photo">
+<img src="/assets/SEREIA.png" width="150px" height="170px">
+</div>
+</ion-col>
+</ion-row >
+
+<div class="like">
+<a href="https://api.whatsapp.com/send?phone=5581997080286">
+<img src="/assets/chat.png" width="60px" height="60px">
+</a>
+</div>
+
+<ion-row>
+<ion-col>
+<!-- <div class="button"> -->
+<!-- <button ion-button class="submit-btn" fulltype="submit" [disabled]="!loginForm.form.valid" >Começar</button> -->
+<!-- </div> -->
+</ion-col>
+</ion-row>
+</form>
+</ion-grid>
+</ion-row>
+</ion-grid>
+</div>
+</ion-content>

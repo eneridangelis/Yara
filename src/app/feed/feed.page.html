@@ -1,0 +1,46 @@
+<ion-content>
+<div class="feedPage">
+<ion-grid style="height: 100%" >
+<ion-row justify-content-center align-items-center style="height: 80%" >
+<ion-grid class="login-container">
+<form #loginForm="ngForm" (ngSubmit)="feed()"autocomplete="off"class="login-form">
+
+<!-- <ion-row align-items-center>
+<ion-col> -->
+<div class="name">
+<h1>Laura</h1>
+</div>
+<!-- </ion-col>
+</ion-row > -->
+
+<ion-row align-items-center>
+<ion-col>
+<div class="photo">
+<img src="/assets/woman.jpg" width="150px" height="170px">
+</div>
+</ion-col>
+</ion-row >
+
+
+<div class="like">
+<a href="/match">
+<img src="/assets/like.png" width="80px" height="90px">
+</a>
+</div>
+	
+<!-- </div> -->
+
+
+<ion-row>
+<ion-col>
+<!-- <div class="button"> -->
+<!-- <button ion-button class="submit-btn" fulltype="submit" [disabled]="!loginForm.form.valid" >Começar</button> -->
+<!-- </div> -->
+</ion-col>
+</ion-row>
+</form>
+</ion-grid>
+</ion-row>
+</ion-grid>
+</div>
+</ion-content>

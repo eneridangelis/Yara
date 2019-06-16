@@ -1,0 +1,47 @@
+// page-login {
+  .matchPage{
+       background-image: url(/assets/match.png);
+       background-size: cover;
+       background-position: center;
+       background-repeat: no-repeat;
+       height: 100%;
+   }
+   .photo{
+       position: relative;
+       //border-radius: 10px;
+       //opacity: 0.8;
+       // width: 80%;
+       top: 60px;
+       left: -10px;
+       text-align: center;
+       //background-color: pink;
+   }
+   .name{
+       position: relative;
+       border-radius: 10px;
+       //opacity: 0.8;
+       // width: 80%;
+       top: 60px;
+       left: -10px;
+       text-align: center;
+       // background-color: pink;
+   }
+   .like{
+       position: relative;
+       // border-radius: 10px;
+       //opacity: 0.8;
+       // width: 80%;
+       top: 90px;
+       left: -10px;
+       text-align: center;
+       // background-color: pink;
+   }
+   // .login-logo{
+   //      // image: url(/assets/SEREIA.png);
+   //      vertical-align: center;
+   //      text-align: center;
+   //  }
+   //  .login-form{
+   //      opacity: none!important;
+   //  }
+// }
